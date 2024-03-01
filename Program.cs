@@ -8,7 +8,7 @@ namespace _4._5_Assignement
         {
             int number;
             Console.WriteLine("press ENTER to reveal a fish");
-            Thread.DrawFish1(500);
+            DrawFish1();
              
         }
         public static void DrawFish1()
