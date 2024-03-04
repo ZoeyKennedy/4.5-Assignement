@@ -8,18 +8,19 @@ namespace _4._5_Assignement
         {
             int number;
             Console.WriteLine("press ENTER to reveal a fish");
+            DrawFish1();
             //Thread.DrawFish1(500);
              
         }
         public static void DrawFish1()
-            {
+        {
             Console.WriteLine("      /\\");
             Console.WriteLine("    _/./");
             Console.WriteLine(" ,-'    `-:..-'/");
             Console.WriteLine(": o )      _  (");
             Console.WriteLine("\"`-....,--; `-.\\");
             Console.WriteLine("    `'");
-            }
+        }
         public static void DrawFish2()
         {
             Console.WriteLine("  o o          .:/    ");
@@ -31,10 +32,10 @@ namespace _4._5_Assignement
         }
         public static void DrawShark()
         {
-            Console.WriteLine(" _________         .    .");
-            Console.WriteLine("(..       \\_    ,  |\\  /|");
-            Console.WriteLine(" \\       O  \\  /|  \\ \\/ /");
-            Console.WriteLine("  \\______    \\/ |   \\  / ");
+            Console.WriteLine(" _________           .    .");
+            Console.WriteLine("(..       \\_     , |\\  /|");
+            Console.WriteLine(" \\       O  \\  /|  \\ \\/ ");
+            Console.WriteLine("  \\______    \\/ |   \\ / ");
             Console.WriteLine("     vvvv\\    \\ |   /  |");
             Console.WriteLine("     \\^^^^  ==   \\_/   |");
             Console.WriteLine("      `\\_   ===    \\.  |");
@@ -42,7 +43,6 @@ namespace _4._5_Assignement
             Console.WriteLine("      |/   \\_  \\|      /");
             Console.WriteLine("             \\________/");
         }
-
         
     }
 
